@@ -1,0 +1,51 @@
+.loader-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loader {
+    margin: 20px;
+}
+
+.loader9 {
+    width: 70px;
+    height: 70px;
+    animation: rotate2 2s linear infinite;
+}
+
+.loader9 div {
+    width: 60%;
+    height: 60%;
+    background-color: #fff;
+    border-radius: 100%;
+    animation: scale 2s ease-in-out infinite;
+}
+
+.loader9 div:nth-child(2) {
+    animation-delay: -1s;
+}
+
+@keyframes rotate2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes scale {
+
+    0%,
+    100% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+}

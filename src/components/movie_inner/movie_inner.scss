@@ -1,0 +1,258 @@
+.container {
+
+    .movie_inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        &::after {
+            content: "";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%);
+            filter: blur(2px);
+            // z-index: 1;
+        }
+    }
+
+    .home-page {
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: transparent;
+        border: none;
+        gap: 6px;
+        cursor: pointer;
+
+        span {
+            color: #FFF;
+            font-family: Imprima;
+            font-size: 17.589px;
+            font-weight: 400;
+            cursor: pointer;
+            z-index: 2;
+        }
+
+        img{
+            z-index: 2;
+        }
+
+    }
+
+    .main-img {
+        width: 314.672px;
+        height: 426px;
+        object-fit: cover;
+        z-index: 2;
+    }
+
+    .elements {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        padding-left: 15%;
+        z-index: 2;
+
+        h4 {
+            color: #B0DC00;
+            font-family: Gurajada;
+            font-size: 30.148px;
+            font-weight: 400;
+            letter-spacing: 8.894px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            width: 584px;
+            color: #FFF;
+            font-family: Gurajada;
+            font-weight: 400;
+            margin-bottom: 20.77px;
+        }
+
+        .inner-movie {
+            cursor: pointer;
+            width: 54.528px;
+            height: 24.992px;
+            border: 1.136px solid #FFF;
+            background: #FFF;
+
+        }
+
+        .inner-hd {
+            cursor: pointer;
+            color: #fff;
+            width: 29.536px;
+            height: 20.448px;
+            border: 1.136px solid #FFF;
+            background: rgba(217, 217, 217, 0.00);
+
+        }
+
+        .inner-about {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+
+
+            p {
+                color: #FFF;
+                font-family: Imprima;
+                font-size: 19.981px;
+                font-weight: 400;
+            }
+
+            .inner-clock {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+
+                img {
+                    width: 21.584px;
+                    height: 21.584px;
+                }
+
+                color: #FFF;
+                font-family: Imprima;
+                font-size: 17.256px;
+                font-weight: 400;
+
+            }
+
+            .inner-data {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+
+                img {
+                    width: 21.584px;
+                    height: 21.584px;
+                }
+
+                color: #FFF;
+                font-family: Imprima;
+                font-size: 17.256px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+
+            }
+        }
+
+
+        .inner-share {
+            width: 483px;
+            height: 112px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 19.312px;
+            background: rgba(63, 63, 63, 0.44);
+            margin-bottom: 27px;
+        }
+
+        .share {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+
+            .inner-steam {
+                width: 46.576px;
+                height: 46.576px;
+            }
+
+            p {
+                cursor: pointer;
+                color: #FFF;
+                font-family: Imprima;
+                font-size: 13.687px;
+                font-weight: 400;
+
+            }
+        }
+
+        .inner-band {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .inner-star {
+                width: 33.556px;
+                height: 33.556px;
+            }
+
+            p {
+                cursor: pointer;
+                color: #FFF;
+                font-family: Imprima;
+                font-size: 29.063px;
+                font-weight: 400;
+
+            }
+        }
+
+        .inner-btn {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+
+            button {
+                cursor: pointer;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                width: 131px;
+                height: 40px;
+                border-radius: 22px;
+                border: 2px solid #CF0;
+                background: rgba(36, 36, 36, 0.96);
+                background-color: transparent;
+                color: #fff;
+
+
+                span {
+                    color: #FFF;
+                    font-family: Imprima;
+                    font-size: 16.348px;
+                    font-weight: 400;
+
+                }
+
+                .inner-player {
+                    display: block;
+                    width: 30px;
+                    height: 22px;
+                }
+            }
+        }
+
+        .inner-footer {
+            width: 950px;
+            height: 82.928px;
+            color: #FFF;
+            font-family: Gurajada;
+            font-weight: 400;
+            letter-spacing: 2.147px;
+        }
+
+
+    }
+}

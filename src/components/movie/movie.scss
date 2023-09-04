@@ -1,0 +1,138 @@
+.wrapper {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  width: 1300px;
+  margin: 0 auto;
+  margin-top: 100px;
+
+}
+
+body {
+  height: 100%;
+  background-color: #26292B;
+}
+
+.cards {
+  width: 300px;
+
+  .cards-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .main-cards {
+    margin-bottom: 20px;
+    object-fit: cover;
+    width: 294px;
+    height: 391px;
+  }
+
+  .main-cards:hover{
+    transform: translateY(-10px);
+    transition: 1s ease-in-out;
+  }
+
+  .left-item {
+
+    .hd {
+      width: 26px;
+      height: 18px;
+      border: none;
+      background: transparent;
+      border: 1px solid #FFF;
+      background: rgba(217, 217, 217, 0.00);
+      color: white;
+
+    }
+  }
+
+  .right-item {
+
+    .year {
+      color: #CF0;
+      font-family: Imprima;
+      font-size: 17.589px;
+      font-weight: 400;
+      margin-bottom: 20px;
+      margin-left: 40px;
+
+    }
+
+    .right-inner {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+
+      .clock {
+        width: 13px;
+        height: 13px;
+      }
+
+      .star {
+        width: 12px;
+        height: 12px;
+      }
+
+      .min {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFF;
+        font-family: Imprima;
+        font-size: 10.393px;
+        font-weight: 400;
+
+      }
+
+      .rayt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFF;
+        font-family: Imprima;
+        font-size: 10.393px;
+        font-weight: 400;
+      }
+    }
+
+  }
+
+  .card-name {
+    font-size: 18px;
+    font-family: Electrolize;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: white;
+    margin-bottom: 20px;
+
+  }
+
+  .btn {
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+
+
+  .modal-big {
+    div {
+      color: black;
+      font-weight: 600;
+
+    }
+  }
+
+}
